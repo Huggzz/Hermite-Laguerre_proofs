@@ -1,9 +1,5 @@
 This repository contains the Julia code...
 
-The computations in all of the quadratures and in some of the proofs have a multithreaded implementation. The Julia REPL can be started e.g. with eight threads with the command line
-
-    julia --threads=8
-
 You will need to install the relevant packages from the julia REPL with the command
 
 ```julia
@@ -17,5 +13,10 @@ Each subfolder corresponds to an equation studied in the paper and contains a nu
 ```
 
 The proof can then be executed step by step in the jupyter notebook `proof.ipynb`.
+
+The computations in all of the quadratures and in some of the proofs have a multithreaded implementation. The Julia REPL can be started e.g. with eight threads with the command line
+
+    julia --threads=8
+
 
 This implementation crucially relies on the package [IntervalArithmetic.jl](https://github.com/JuliaIntervals/IntervalArithmetic.jl) for rigorous float-point arithmetic.
