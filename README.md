@@ -10,7 +10,7 @@ You will need to install the relevant packages from the julia REPL with the comm
     using Pkg; Pkg.add("Combinatorics, FastGaussQuadrature, IntervalArithmetic, LaTeXStrings, Plots, Polynomials, PolynomialRoots, Random, Serialization")
 ```
 
-Each subfolder corresponds to an equation studided in the paper and contains a numerical solution `ubar`, a julia script computing the necessary rigorous quadratures `quadrature.jl` which can be executed from the relevant subfolder in the julia REPL with the command
+Each subfolder corresponds to an equation studied in the paper and contains a numerical solution `ubar`, a julia script computing the necessary rigorous quadratures `quadrature.jl` which can be executed from the relevant subfolder in the julia REPL with the command
 
 ```julia
     include("quadrature.jl")
