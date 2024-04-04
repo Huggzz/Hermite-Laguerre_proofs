@@ -1,4 +1,4 @@
-This repository contains the Julia code...
+This repository contains the Julia code asoociated with the paper "Constructive proofs for some semilinear PDEs on $H^2(e^{|x|^2/4},\mathbb{R}^d)$"
 
 You will need to install the relevant packages from the julia REPL with the command
 
