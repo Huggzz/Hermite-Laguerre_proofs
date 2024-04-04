@@ -14,4 +14,4 @@ The computations in all of the quadratures and in some of the proofs have a mult
     ENV["JULIA_NUM_THREADS"] = 8
 ````
 
-This implementation crucially relies on the package [IntervalArithmetic.jl](https://github.com/JuliaIntervals/IntervalArithmetic.jl) for rigorous float-point arithmetic.
+This implementation crucially relies on the package [IntervalArithmetic.jl](https://github.com/JuliaIntervals/IntervalArithmetic.jl) for rigorously controlling rounding errors.
